@@ -1,0 +1,17 @@
+{
+  "name": "megabasecalc",
+  "version": "1.0.0",
+  "description": "Calculates the size of a chromosomal break for translocation carriers",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Nick Bagnall",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^0.26.1",
+    "jsdom": "^19.0.0",
+    "webpack": "^5.71.0",
+    "webpack-cli": "^4.9.2"
+  }
+}

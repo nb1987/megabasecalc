@@ -1,0 +1,59 @@
+.outer-container {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  border: 3px solid #111;
+  background-color: #ddd;
+  border-radius: 8px;
+  max-width: 600px;
+}
+
+.grid {
+  color: black;
+  font-size: 20px;
+  min-height: 200px;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  align-items: center;
+  justify-items: left;
+}
+
+label {
+  grid-column: 1 / 2;
+  margin-left: 8px;
+}
+
+input, select {
+  grid-column: 2 / 3;
+  margin-right: 8px;
+}
+
+select {
+  min-width: 150px;
+  max-width: 150px;
+  height: 30px;
+  border-radius: 4px;
+}
+
+input[type=radio]{
+  transform:scale(1.5);
+}
+
+label.radio-label {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#break {
+  text-align: center;
+  border: 3px dashed black;
+  border-radius: 8px;
+  font-size: 80px;
+  min-width: 100px;
+}
+
+#break-phrase {
+  margin-top: 8px;
+}

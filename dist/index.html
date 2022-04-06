@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Break size calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div>
+      <h1 style="text-align: center;">Break size calculator</h1>
+      <div class="outer-container">
+        <div class="container">
+          <div class="grid">
+            <label for="chrome" class="field-item"><b>Chromosome</b></label>
+            <select id="chromo" class="field-item"></select>
+            <label><b>Arm</b></label>
+            <div style="display:inline-block;">
+              <input type="radio" id="arm-p" name="arm" value="p" disabled> <label class="radio-label" for="arm-p">p</label>
+              <input type="radio" id="arm-q" name="arm" value="q" disabled> <label class="radio-label" for="arm-q">q</label>
+            </div>
+            <label for="band" class="field-item"><b>Cytogenic Band</b></label>
+            <select id="band" class="field-item" disabled></select>
+          </div>
+          <br />
+          <div style="display: flex; justify-content: center; margin-bottom: 5px;">
+            <div>
+              Size (in MB)
+            </div>
+          </div>
+          <div style="display: flex; justify-content: center;">
+            <div id="break">
+              ?
+            </div>
+          </div>
+          <div style="display: flex; justify-content: center;">  
+            <div id="break-phrase">
+              
+            </div>
+          </div>
+          <br />
+          <br />
+        </div>
+      </div>
+    </div>
+    
+    <script src="./main.js"></script>
+  </body>
+</html>
